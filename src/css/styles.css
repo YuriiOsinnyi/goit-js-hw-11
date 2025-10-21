@@ -74,10 +74,11 @@
     border-radius: 50%;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
+    margin: 20px auto 0;
 }
 
 .loader.active {
-    display: inline-block;
+    display: block;
 }
 
 @keyframes rotation {
